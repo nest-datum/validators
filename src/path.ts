@@ -15,7 +15,7 @@ export const path = (propertyName, value, options = {}) => {
 
 		if (valueSplit.length === 1
 			&& valueSplit[0] === '') {
-			return valueStr;
+			return '/'+ valueStr;
 		}
 
 		while (i < valueSplit.length) {
@@ -25,7 +25,7 @@ export const path = (propertyName, value, options = {}) => {
 			}
 			i++;
 		}
-		return valueStr;
+		return '/'+ valueStr;
 	}
 	else if (options['isRequired']) {
 		throw new WarningException(`property${propertyName ? ` "${propertyName}" `: ''}is empty.`, getCurrentLine(), { value, ...options });
