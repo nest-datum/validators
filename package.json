@@ -1,6 +1,6 @@
 {
   "name": "@nest-datum/validators",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Set of functions for validating incoming data in a microservice",
   "author": "ihor-bielchenko",
   "license": "ISC",
