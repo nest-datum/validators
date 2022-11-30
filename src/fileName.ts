@@ -4,10 +4,10 @@ import { str } from './str';
 
 export const fileName = (propertyName: string, value, options = {}) => {
 	if (typeof value !== 'undefined') {
-		const valueStr = str(value, {
-			...options,
+		const valueStr = str(propertyName, value, {
 			min: 1,
 			max: 255,
+			...options,
 		});
 
 		if (valueStr.includes('/')
