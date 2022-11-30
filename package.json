@@ -1,6 +1,6 @@
 {
   "name": "@nest-datum/validators",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Set of functions for validating incoming data in a microservice",
   "author": "ihor-bielchenko",
   "license": "ISC",
@@ -20,7 +20,7 @@
     "test:e2e": "jest --config ./test/jest-e2e.json"
   },
   "dependencies": {
-    "@nest-datum/exceptions": "^1.0.3",
+    "@nest-datum/exceptions": "^1.0.4",
     "@nest-datum/jwt": "^1.0.2",
     "get-current-line": "^6.6.0"
   },
